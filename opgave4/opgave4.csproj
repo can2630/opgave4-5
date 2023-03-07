@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="obl1">
       <HintPath>..\..\..\obl1\obl1\bin\Debug\net6.0\obl1.dll</HintPath>
     </Reference>
